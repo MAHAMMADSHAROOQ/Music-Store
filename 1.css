@@ -1,0 +1,102 @@
+body{
+    background: url(images/BKG.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+    
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* logo css */
+#logo {
+    position: absolute;
+    top: 5px;
+    left: 5%;
+}
+
+/* navbar css */
+#navbar {
+    height: 60px;
+    width: 925px;
+    position: absolute;
+    top: 30px;
+    right: 1%;
+    border-radius: 10px;
+    z-index: 999;
+    overflow: hidden;
+}
+
+#navbar ul {
+    height: 100%;
+    width: 965px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#navbar ul li a {
+    height: 100%;
+    width: auto;
+    margin: 0 30px;
+    font-size: 25px;
+    margin-left: 0;
+    display: grid;
+    place-items: center;
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+#navbar ul li a:hover {
+    color: #10bc66;
+    border-bottom: 2px solid #01ce69;
+    width: calc(100% - 100px);
+}
+
+/* content css */
+#content {
+    height: auto;
+    width: 700px;
+    position: absolute;
+    right: 11%;
+    top: calc(50% - 215px);
+}
+
+#content h2 {
+    font-size: 190px;
+    color: #098547;
+}
+
+#content p {
+    font-size: 30px;
+    color: #010704;
+}
+
+#content button {
+    height: 65px;
+    width: 210px;
+    border: none;
+    outline: none;
+    border-radius: 70px;
+    margin: 20px 0;
+    font-size: 20px;
+    background: #0789ec;
+    color: rgb(229, 32, 32);
+    cursor: pointer;
+}
+
+#content button:hover {
+    color: #015974;
+    border: 2px solid #19c1f0;
+    background: transparent;
+}
+
